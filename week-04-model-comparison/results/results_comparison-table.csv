@@ -1,0 +1,10 @@
+﻿id,input_text,model_1_sentiment_label,model_1_sentiment_score,model_2_zeroshot_label,model_2_zeroshot_score,model_3_ner_entities,model_4_groq_classification,notes,tested_at
+rec7AT3KIoyMlSVVx,Unauthorized login from IP 198.51.100.4 at 3:47 AM — multiple failed attempts preceded this,NEGATIVE,0.9994,possible anomaly,0.91,{},"HIGH
+
+Reasoning: An unauthorized login from an external IP, despite multiple failed attempts preceding it, indicates a high level of security risk as it suggests that an attacker was attempting to gain access to the system before finally succeeding.",,3/20/2026 5:24pm
+recc9lj3849yOTSr4,Routine firewall rule update completed on fw-01 during scheduled maintenance window,NEGATIVE,0.9986,routine activity,1.00,{},"INFORMATIONAL
+
+This alert is informational because it indicates a routine, scheduled maintenance activity with no apparent impact on system security or integrity.",,3/20/2026 5:24pm
+recIXDLlekv06qiv9,Phishing email detected targeting finance@company.com — spoofed sender domain,NEGATIVE,0.9968,possible anomaly,0.76,{},"HIGH. The phishing email targets a high-value email account responsible for company finances, potentially leading to financial losses if compromised.",,3/20/2026 5:24pm
+recLzT25BOrVVIWu0,Multiple failed SSH authentication attempts from external IP — 47 attempts in 5 minutes,NEGATIVE,0.9993,possible anomaly,0.87,"{""entity_group"":""MISC"",""score"":0.99433726,""word"":""SS"",""start"":16,""end"":18}","HIGH: This alert suggests a possible brute-force SSH attack, which can potentially lead to unauthorized access to the system if not addressed in a timely manner.",,3/20/2026 5:24pm
+rec8OwxerskMUlGTZ,System resource utilization normal across all monitored hosts — no anomalies detected,NEGATIVE,0.9880,routine activity,0.97,{},"INFORMATIONAL. This alert indicates routine system monitoring activity with no issues identified, and therefore does not warrant further action.",,3/20/2026 5:24pm
