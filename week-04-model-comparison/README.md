@@ -1,4 +1,4 @@
-# Threat-Intelligence-Automation-Industry-Immersion-Experience-
+# Threat-Intelligence-Automation
 # Week 4 Model Comparison — Threat Intelligence Feed Dashboard
 
 ## Overview
