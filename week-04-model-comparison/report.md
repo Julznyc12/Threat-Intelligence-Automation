@@ -1,7 +1,10 @@
 # Model Comparison Report — Week 4 
 **Name:** Julian Silva-erazo
+
 **Date:** March 20, 2026 
+
 **Capstone Project:** Threat Intelligence Feed Dashboard
+
 **My Component:** Relevance Scorer
 
 ## Test Setup 
