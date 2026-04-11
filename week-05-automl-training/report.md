@@ -1,6 +1,9 @@
 Name: Julian Silva Erazo
+
 Date: 3/26/2026
+
 Capstone Project: Intelligence Threat Dashboard
+
 My Component: Relevance Scorer
 
 ## Part A: Teachable Machine Training (Text Classification Alternative)
