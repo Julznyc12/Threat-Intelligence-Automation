@@ -1,0 +1,23 @@
+This document contains MITRE ATT&CK techniques related to Lateral Movement.
+These techniques describe how attackers move through a network after gaining initial access.
+
+Technique: Remote Services (T1021)
+Description:
+Attackers use legitimate remote access protocols to move between systems within a network.
+
+Procedure Examples:
+Protocols such as Remote Desktop Protocol (RDP), Secure Shell (SSH), and Server Message Block (SMB) are commonly used. Once attackers obtain valid credentials, they log into other machines to expand their foothold and access sensitive data.
+
+Technique: Pass the Hash (T1550.002)
+Description:
+Pass the Hash is a technique where attackers use stolen password hashes to authenticate without needing the actual plaintext password.
+
+Procedure Examples:
+After dumping credentials, attackers reuse NTLM hashes to authenticate to other systems. Tools automate this process, allowing rapid lateral movement without triggering password-based authentication alerts.
+
+Technique: Internal Spearphishing
+Description:
+Internal spearphishing involves sending targeted phishing messages within an organization using compromised accounts.
+
+Procedure Examples:
+Attackers leverage trusted internal email accounts to send malicious links or attachments to other employees. Because the messages come from legitimate sources, they are more likely to be trusted, enabling attackers to compromise additional users and systems.

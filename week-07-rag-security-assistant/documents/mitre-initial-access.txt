@@ -1,0 +1,23 @@
+This document contains MITRE ATT&CK techniques related to Initial Access.
+These techniques describe how attackers first gain entry into a system or network during a cyber intrusion.
+
+Technique: Phishing (T1566)
+Description:
+Phishing is a social engineering technique where attackers send deceptive emails or messages to trick users into revealing credentials or executing malicious files. These messages often impersonate trusted entities such as banks, coworkers, or IT departments.
+
+Procedure Examples:
+Attackers may send emails with malicious attachments (e.g., macro-enabled Office documents) that, when opened, execute scripts to download malware. In other cases, users are directed to fake login pages where credentials are harvested. Phishing campaigns are often used as the initial entry point in large-scale breaches.
+
+Technique: Drive-by Compromise (T1189)
+Description:
+Drive-by compromise occurs when a user visits a legitimate but compromised website, resulting in the automatic download of malicious code without explicit user interaction.
+
+Procedure Examples:
+Attackers inject malicious JavaScript into vulnerable websites. When users visit the page, the script exploits browser vulnerabilities or plugins (such as outdated Flash or Java) to silently install malware. This technique is commonly used in watering hole attacks targeting specific organizations.
+
+Technique: Exploit Public-Facing Application (T1190)
+Description:
+This technique involves exploiting vulnerabilities in internet-facing applications such as web servers, APIs, or content management systems.
+
+Procedure Examples:
+Attackers scan for known vulnerabilities (e.g., SQL injection, remote code execution). Once identified, they send crafted requests to exploit these flaws, allowing them to execute commands on the server, deploy web shells, or gain persistent access to the network.
