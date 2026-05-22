@@ -1,6 +1,6 @@
 ## **AI Automation — Industry Immersion Course: Project Overview**
 
-This repository captures the work completed so far for the AI Automation industry immersion course. It collects weekly checkpoints, experiment artifacts, prompt logs, and results so reviewers and future contributors can reproduce, learn from, and extend the work.
+This repository captures the work completed so far for the AI Automation industry immersion Internship. It collects weekly checkpoints, experiment artifacts, prompt logs, and results so reviewers and future contributors can reproduce, learn from, and extend the work.
 
 **Structure:**
 - **Weeks:**: Weekly project folders with notes, reports, notebooks, and results.
